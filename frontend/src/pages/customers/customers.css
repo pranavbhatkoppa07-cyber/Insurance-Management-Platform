@@ -1,0 +1,63 @@
+.customer-page {
+  padding: 30px;
+}
+
+.customer-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.customer-form h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+}
+
+.search-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 25px;
+}
+
+.customer-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.customer-table table {
+  width: 100%;
+}
+
+.customer-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.customer-table td,
+.customer-table th {
+  padding: 14px;
+}
+
+.customer-table tr:hover {
+  background: #f1f5f9;
+}
+
+.pagination-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}

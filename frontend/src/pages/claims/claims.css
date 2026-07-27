@@ -1,0 +1,57 @@
+.claim-page {
+  padding: 30px;
+}
+
+.claim-form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.claim-form h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.claim-search {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 25px;
+}
+
+.claim-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.claim-table table {
+  width: 100%;
+}
+
+.claim-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.claim-table th,
+.claim-table td {
+  padding: 14px;
+}
+
+.claim-table tbody tr:hover {
+  background: #eef5ff;
+}
+
+.claim-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}

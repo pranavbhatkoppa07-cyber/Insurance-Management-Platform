@@ -1,0 +1,55 @@
+.document-page {
+  padding: 30px;
+}
+
+.document-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.document-card h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.document-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.document-table table {
+  width: 100%;
+}
+
+.document-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.document-table td,
+.document-table th {
+  padding: 14px;
+}
+
+.document-table tbody tr:hover {
+  background: #eef5ff;
+}
+
+.upload-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.upload-btn:hover {
+  background: #1d4ed8;
+}

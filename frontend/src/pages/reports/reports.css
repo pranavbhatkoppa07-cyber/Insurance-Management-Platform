@@ -1,0 +1,41 @@
+.report-page {
+  padding: 30px;
+}
+
+.report-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.report-card h2 {
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.report-card p {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.report-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.report-btn:hover {
+  background: #1d4ed8;
+}
+
+.report-icon {
+  font-size: 70px;
+  margin-bottom: 15px;
+}

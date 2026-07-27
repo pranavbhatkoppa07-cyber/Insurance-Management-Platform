@@ -1,0 +1,57 @@
+.premium-page {
+  padding: 30px;
+}
+
+.premium-form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.premium-form h2 {
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.premium-search {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  margin-bottom: 25px;
+}
+
+.premium-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.premium-table table {
+  width: 100%;
+}
+
+.premium-table th {
+  background: #2563eb;
+  color: white;
+}
+
+.premium-table td,
+.premium-table th {
+  padding: 14px;
+}
+
+.premium-table tbody tr:hover {
+  background: #eef5ff;
+}
+
+.premium-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  margin-top: 25px;
+}
