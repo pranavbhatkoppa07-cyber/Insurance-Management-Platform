@@ -1,13 +1,6 @@
 venv/
 __pycache__/
 *.pyc
-
 .env
-
 uploads/
 reports/
-
-instance/
-.pytest_cache/
-
-*.sqlite3
